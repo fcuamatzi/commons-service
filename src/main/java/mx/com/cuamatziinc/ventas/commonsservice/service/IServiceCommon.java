@@ -4,6 +4,7 @@ import java.util.Optional;
 
 public interface IServiceCommon<E> {
 	
+	
 	Iterable<E> findAll();
 	
 	Optional<E> findById(Long id);

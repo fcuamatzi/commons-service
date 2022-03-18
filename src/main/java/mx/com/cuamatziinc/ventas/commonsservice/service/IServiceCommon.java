@@ -2,7 +2,6 @@ package mx.com.cuamatziinc.ventas.commonsservice.service;
 
 import java.util.Optional;
 
-
 public interface IServiceCommon<E> {
 	
 	Iterable<E> findAll();
